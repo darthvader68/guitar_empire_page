@@ -1,0 +1,119 @@
+/* cores
+
+header - #5DAF81/#6ED19A
+container - #B4A5AC
+botao - #296E47
+footer - #254634
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Raleway:wght@300;400;700&family=Tajawal:wght@500;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(90deg,#5DAF81, #6ED19A);
+    width: 100%;
+    padding: 8px;    
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    width: 200px;
+    margin-left: 8px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Kaushan Script';
+    color: #296e47;
+}
+
+ul {
+    border-bottom: 2px solid white;    
+}
+
+li {
+    display: inline-block;
+    color: #296e47;
+    margin: 20px;
+    padding-right: 60px;
+}
+
+li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(guitar_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+}
+
+.container {
+    background-color: #F8DE59;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #B4A5AC;
+    border-radius: 10px;
+    margin: 160px 0;
+    padding: 20px;
+}
+
+.container h1 {
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 20px;
+    color: #0d4927;
+}
+
+.container p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.container button {
+    margin-top: 30px;
+    background-color: #0d4927;;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    border: none;
+    border-radius: 8px;
+}
+
+.container button:hover {
+    background-color: #a1890f;
+    color: #041f10;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #0d4927;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
